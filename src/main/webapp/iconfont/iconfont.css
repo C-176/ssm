@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "iconfont"; /* Project id  */
+    src: url('iconfont.ttf?t=1635858700112') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-liangzitongji:before {
+    content: "\35b4";
+}
+
+.icon-WIFI:before {
+    content: "\e76c";
+}
+
+.icon-bug-report:before {
+    content: "\e76d";
+}
+
+.icon-supervise:before {
+    content: "\e777";
+}
+
+.icon-chart-relation:before {
+    content: "\e78d";
+}
+
+.icon-chart-scatter-plot:before {
+    content: "\e78e";
+}
+
+.icon-laptop:before {
+    content: "\e797";
+}
+
+.icon-paperplane-fill:before {
+    content: "\e7a9";
+}
+
+.icon-pausecircle:before {
+    content: "\e80d";
+}
+
+.icon-stopcircle:before {
+    content: "\e80e";
+}
+
+.icon-playcircle:before {
+    content: "\e80f";
+}
+
+.icon-sort:before {
+    content: "\e842";
+}
+
+.icon-sort-down:before {
+    content: "\e843";
+}
+
+.icon-sort-up:before {
+    content: "\e844";
+}
+
+.icon-caret-right:before {
+    content: "\e845";
+}
+
+.icon-caret-left:before {
+    content: "\e846";
+}
+
+.icon-connection:before {
+    content: "\e851";
+}
+
+.icon-process:before {
+    content: "\e854";
+}
+
+.icon-icon-test:before {
+    content: "\e656";
+}
+
+.icon-icon-test1:before {
+    content: "\e657";
+}
+
+.icon-icon-test2:before {
+    content: "\e658";
+}
+
+.icon-icon-test3:before {
+    content: "\e659";
+}
+
+.icon-icon-test4:before {
+    content: "\e65a";
+}
+
+.icon-icon-test5:before {
+    content: "\e65b";
+}
+
+.icon-icon-test6:before {
+    content: "\e65c";
+}
+
+.icon-icon-test7:before {
+    content: "\e65d";
+}
+
+.icon-icon-test8:before {
+    content: "\e65e";
+}
+
+.icon-icon-test9:before {
+    content: "\e65f";
+}
+
+.icon-loading:before {
+    content: "\e891";
+}
+
+.icon-application:before {
+    content: "\e89e";
+}
+
+.icon-applicationgroup:before {
+    content: "\e89f";
+}
+
+.icon-weixiu:before {
+    content: "\e602";
+}
+
+.icon-aichegujiabeifen7:before {
+    content: "\e603";
+}
+
+.icon-huanluntai:before {
+    content: "\e604";
+}
+
+.icon-aichegujiabeifen5:before {
+    content: "\e605";
+}
+
+.icon-yonghufankuibeifen:before {
+    content: "\e606";
+}
+

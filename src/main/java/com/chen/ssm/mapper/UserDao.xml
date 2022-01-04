@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chen.ssm.dao.UserDao">
+    <select id="queryUserByUserId" parameterType="int"
+            resultType="com.chen.ssm.po.User">
+        select user_id as id, user_name as name, user_pwd as pwd
+        from user
+        where user_id = #{id}
+    </select>
+    <select id="queryUserByUserName"
+            resultType="com.chen.ssm.po.User">
+        select user_id as id, user_name as name, user_pwd as pwd
+        from user
+        where user_name = #{name}
+    </select>
+    <insert id="insertUser" parameterType="com.chen.ssm.po.User">
+        insert into user(user_id, user_name, user_pwd, create_date, update_date, user_email)
+        values (#{id}, #{name}, #{pwd}, #{createDate}, #{updateDate}, #{email})
+    </insert>
+</mapper>
