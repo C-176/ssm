@@ -28,5 +28,6 @@
 
     <mappers>
         <mapper resource="com/chen/ssm/mapper/UserDao.xml"/>
+        <mapper resource="com/chen/ssm/mapper/MovieDao.xml"/>
     </mappers>
 </configuration>

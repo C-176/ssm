@@ -91,10 +91,10 @@ body {
     position: absolute;
     top: 400px;
     right: 42%;
-    /*margin-right: 200px;*/
+    margin-right: -7px;
     height: 60px;
     width: 340px;
-    /*margin-left: 50px;*/
+
     border: 3px solid #ff5edb;
     padding-left: 20px;
     border-radius: 10px 0 0 10px;
@@ -110,7 +110,7 @@ body {
     position: absolute;
     top: 400px;
     right: 39%;
-    /*margin-left: 140px;*/
+    margin-right: -3px;
     height: 60px;
     width: 60px;
     border: 3px solid #ff5edb;
@@ -233,13 +233,28 @@ body {
 
 
 .whole .introduction {
-
     padding: 50px 0;
     height: 500px;
     width: 100%;
     background-color: #0e0f25;
     margin-bottom: 200px;
+}
 
+.whole .result {
+    padding: 50px 0;
+    height: 200px;
+    width: 100%;
+    background-color: #0e0f25;
+    margin-bottom: 200px;
+}
+
+.whole .result > div {
+
+    margin: 0 auto;
+    height: 150px;
+    width: 1450px;
+    font-size: 40px;
+    color: #ffffff;
 }
 
 .whole .introduction > div {

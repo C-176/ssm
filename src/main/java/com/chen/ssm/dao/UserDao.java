@@ -2,6 +2,7 @@ package com.chen.ssm.dao;
 
 import com.chen.ssm.po.User;
 
+
 public interface UserDao {
     public User queryUserByUserId(Integer id);
 

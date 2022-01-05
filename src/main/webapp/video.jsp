@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,8 +31,10 @@
             <div class="white">待人如待鼠，所有对鼠的措施都可以同等地施加给人,闭上眼拒绝思考并不能使这个惨不忍睹的画面消失。这就是赛博朋克。<br>
                 经典的赛博朋克角色是边缘且性格疏远的独行者。他们生活在社会群体的边缘，一个弥漫反乌托邦氛围的未来：日常生活受到急剧改变的科技影响，普及的计算机化信息笼罩全球，以及侵入性的人体改造。
             </div>
-            <form action="searchVideo">
-                <input type="text" placeholder="输入查询关键字" name="searchInfo">
+            <form action="searchMovie">
+                <label>
+                    <input type="text" placeholder="输入查询关键字" name="searchInfo">
+                </label>
                 <button><span class="iconfont">&#xe7a9;</span></button>
             </form>
         </div>
